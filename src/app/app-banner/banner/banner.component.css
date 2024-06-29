@@ -1,0 +1,23 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding:10px;
+    align-items: center;
+    background-color: #222;
+}
+
+.banner-btn button{
+    padding: 8px 16px;
+    border-radius: 16px;
+    border:none;
+    background-color: #eb5757;
+    color: #f9f9f9;
+    font-weight: 500;
+    font-size: 18px;
+}
+.banner-text{
+    color: #f9f9f9;
+    font-weight: 500;
+    font-size: 18px;
+}
