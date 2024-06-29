@@ -1,0 +1,15 @@
+.nav-menu ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+.nav-menu ul li a{
+  text-decoration: none;
+  color: #81d3ea;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+}
+.nav-menu ul li a:hover{
+  text-decoration: underline;
+}
