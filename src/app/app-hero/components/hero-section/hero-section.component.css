@@ -1,0 +1,13 @@
+.hero-section{
+    width: 100%;
+    background-image: url(/src/assets/image.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding-left: 15%;
+
+}
