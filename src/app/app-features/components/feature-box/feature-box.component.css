@@ -1,0 +1,32 @@
+.box{
+    width: 350px;
+    height: 550px;
+    padding: 20px;
+    /* margin-left: 13%; */
+}
+
+.inner-box{
+    width: 344px;
+    height: 350px;
+    background-color: black;
+    color: white;
+}
+.inner-box-heading{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 25%;
+}
+.inner-box-number{
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.box-text{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;    
+}
