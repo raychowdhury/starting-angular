@@ -15,6 +15,10 @@ import { SupportHeadingComponent } from './app-support/components/support-headin
 import { SupportPComponent } from './app-support/components/support-p/support-p.component';
 import { FeaturesComponent } from './app-features/components/features/features.component';
 import { FeatureBoxComponent } from './app-features/components/feature-box/feature-box.component'
+import { MidHeroSectionComponent } from './app-mid-hero/components/mid-hero-section/mid-hero-section.component';
+import { MidHeroHeadingComponent } from './app-mid-hero/components/mid-hero-heading/mid-hero-heading.component';
+import { MidHeroPComponent } from './app-mid-hero/components/mid-hero-p/mid-hero-p.component';
+import { MidHeroBtnComponent } from './app-mid-hero/components/mid-hero-btn/mid-hero-btn.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +34,10 @@ import { FeatureBoxComponent } from './app-features/components/feature-box/featu
     SupportPComponent,
     FeaturesComponent,
     FeatureBoxComponent,
+    MidHeroSectionComponent,
+    MidHeroHeadingComponent,
+    MidHeroPComponent,
+    MidHeroBtnComponent,
   ],
     imports: [
         BrowserModule,

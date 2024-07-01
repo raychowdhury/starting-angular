@@ -1,0 +1,12 @@
+.hero-btn button{
+    padding:5px 25px;
+    line-height: inherit;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.hero-btn{
+    padding-bottom: 5%;
+}

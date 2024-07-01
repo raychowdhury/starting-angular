@@ -1,12 +1,11 @@
-.hero-section{
+.mid-hero-section{
     width: full;
-    background-size: 100%;
-    background-size: cover;
+    /* background-size: 100%;
+    background-size: cover; */
     background-color: beige;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: left;
-    padding-left: 13.6%;
-
+    align-items: end;
+    padding: 0 13%;
 }
