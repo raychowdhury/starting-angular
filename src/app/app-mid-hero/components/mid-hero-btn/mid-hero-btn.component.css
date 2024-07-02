@@ -5,8 +5,14 @@
     font-weight: 700;
     border-radius: 5px;
     background-color: transparent;
+    
+}
+.hero-btn button:hover{
+    background-color: #eb5757;
+    color: #fff;
+    
 }
 
-.hero-btn{
+/* .hero-btn{
     padding-bottom: 5%;
-}
+} */

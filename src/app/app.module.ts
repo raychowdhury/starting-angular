@@ -19,6 +19,11 @@ import { MidHeroSectionComponent } from './app-mid-hero/components/mid-hero-sect
 import { MidHeroHeadingComponent } from './app-mid-hero/components/mid-hero-heading/mid-hero-heading.component';
 import { MidHeroPComponent } from './app-mid-hero/components/mid-hero-p/mid-hero-p.component';
 import { MidHeroBtnComponent } from './app-mid-hero/components/mid-hero-btn/mid-hero-btn.component';
+import { AllProductsComponent } from './app-products/components/all-products/all-products.component';
+import { ProductDetailsComponent } from './app-products/components/product-details/product-details.component';
+import { ProductHeadingComponent } from './app-products/components/product-heading/product-heading.component';
+import { ViewAllProductComponent } from './app-products/components/view-all-product/view-all-product.component';
+
 
 @NgModule({
   declarations: [
@@ -38,6 +43,11 @@ import { MidHeroBtnComponent } from './app-mid-hero/components/mid-hero-btn/mid-
     MidHeroHeadingComponent,
     MidHeroPComponent,
     MidHeroBtnComponent,
+    AllProductsComponent,
+    ProductDetailsComponent,
+    ProductHeadingComponent,
+    ViewAllProductComponent,
+    
   ],
     imports: [
         BrowserModule,
