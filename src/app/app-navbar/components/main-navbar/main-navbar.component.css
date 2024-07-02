@@ -4,4 +4,7 @@
   align-items: center;
   background-color: #eb5757;
   color: white;
+  position: sticky;
+   top: 0;
+   z-index: 100;
 }

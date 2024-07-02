@@ -33,3 +33,13 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+.product-box{
+    background-image: url(/assets/product-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+}

@@ -2,7 +2,12 @@
     width: full;
     background-size: 100%;
     background-size: cover;
-    background-color: beige;
+    /* background-color: beige; */
+    background-image: url(/assets/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
