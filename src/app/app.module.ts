@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,7 +24,24 @@ import { AllProductsComponent } from './app-products/components/all-products/all
 import { ProductDetailsComponent } from './app-products/components/product-details/product-details.component';
 import { ProductHeadingComponent } from './app-products/components/product-heading/product-heading.component';
 import { ViewAllProductComponent } from './app-products/components/view-all-product/view-all-product.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
+import { ShopComponent } from './shop/shop.component';
+import { DonateComponent } from './donate/donate.component';
 
+
+
+//Define route
+
+const routes: Routes = [
+  {path: '', component: HomeComponent},
+  {path: 'Home', component: HomeComponent},
+  {path: 'Contact', component: ContactComponent},
+  {path: 'About', component: AboutComponent},
+  {path: 'Shop', component: ShopComponent},
+  {path: 'Donate', component: DonateComponent},
+
+]
 
 @NgModule({
   declarations: [
@@ -47,12 +65,17 @@ import { ViewAllProductComponent } from './app-products/components/view-all-prod
     ProductDetailsComponent,
     ProductHeadingComponent,
     ViewAllProductComponent,
+    ContactComponent,
+    AboutComponent,
+    ShopComponent,
+    DonateComponent
     
   ],
     imports: [
         BrowserModule,
         AppRoutingModule,
-        AppNavbarModule
+        AppNavbarModule,
+        RouterModule.forRoot(routes)
     ],
   providers: [],
   bootstrap: [AppComponent]
