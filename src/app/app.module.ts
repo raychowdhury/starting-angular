@@ -28,18 +28,20 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ShopComponent } from './shop/shop.component';
 import { DonateComponent } from './donate/donate.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
 //Define route
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', redirectTo:'Home', pathMatch:'full'},
   {path: 'Home', component: HomeComponent},
   {path: 'Contact', component: ContactComponent},
   {path: 'About', component: AboutComponent},
   {path: 'Shop', component: ShopComponent},
   {path: 'Donate', component: DonateComponent},
+  {path: '**', component: NotFoundComponent},
 
 ]
 
